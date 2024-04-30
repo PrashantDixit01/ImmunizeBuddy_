@@ -1,0 +1,58 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    background-image: url('image/Untitled\ design.png');
+    height: 100vh;
+    width: 100%;
+    background-size: 100% 100%;
+}
+
+.AAA h2 {
+    font-size: 40px;
+    font-style: italic;
+    margin-left: 100px;
+    padding-top: 130px;
+    color: rgb(173, 104, 104);
+}
+
+
+.Right{
+    position: absolute;
+    top: 0;
+}
+
+.Right img {
+    height: 400px;
+    width: 600px;
+    padding-left: 700px;
+    margin-top: 100px;
+}
+
+.Left{
+    margin-left: 30px;
+}
+
+.Left h2{
+    margin-top: 120px;
+    text-transform: capitalize;
+    font-weight: lighter;
+    color: #242424;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.Left p{
+    margin-top: 10px;
+}
+
+.Left h3{
+    text-transform: capitalize;
+    font-weight: lighter;
+    color: #242424;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 20px;
+}

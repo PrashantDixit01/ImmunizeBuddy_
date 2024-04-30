@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Mr Dafoe', cursive;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.A:hover {
+    cursor: pointer;
+}
+
+header {
+    height: 100vh;
+    width: 100%;
+    padding: 5px 20px 00px;
+    background-image: url('image/Untitled\ design.png');
+    background-size: 100% 100%;
+}
+
+.mainheader {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: auto;
+    align-items: center;
+}
+
+.mainheader nav a:hover {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: antiquewhite;
+    border-bottom: 2px solid white;
+    transition: 0.3s;
+}
+
+.profile img {
+    height: 80px;
+    margin-left: 100px;
+    margin-top: 10px;
+    width: 80px;
+    /* border: 2px white; */
+}
+
+.mainheader nav {
+    width: 700px;
+    display: flex;
+    justify-content: space-around;
+    font-size: larger;
+    padding-left: 80px;
+}
+
+.mainheader nav a {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: black;
+}
+
+
+.button {
+    text-align: center;
+}
+
+.button .addcart {
+    margin-right: 80px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 15px;
+    font-size: 20px;
+    border: none;
+    background-color: antiquewhite;
+    font-weight: bold;
+    cursor: pointer;
+    height: 50px;
+    font-weight: 600;
+
+}
+
+.button button:hover {
+    background-color: rgb(204, 142, 119);
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.right img {
+    height: 30rem;
+    width: 50rem;
+    padding-left: 90px;
+}
+
+main .left {
+    padding-left: 100px;
+}
+
+.left h3 {
+    margin-top: 100px;
+    text-transform: capitalize;
+    font-weight: lighter;
+    color: #242424;
+    font-size: 20px;
+}
+
+.left h1 {
+    font-size: 30px;
+    margin-top: 10px;
+    font-weight: 700;
+
+}
+
+.left p {
+    margin-top: 10px;
+}
+
+.left button {
+    margin-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: 30px;
+    border-radius: 15px;
+    font-size: 20px;
+    border: none;
+    background-color: antiquewhite;
+    font-weight: bold;
+    cursor: pointer;
+    height: 50px;
+}
+
+.left button:hover {
+    background-color: rgb(204, 142, 119);
+}
+
